@@ -1,12 +1,13 @@
 package src;
 
+import src.mapeditor.editor.Controller;
 import src.utility.GameCallback;
 import src.utility.PropertiesLoader;
 
 import java.util.Properties;
 
 public class Driver {
-    public static final String DEFAULT_PROPERTIES_PATH = "properties/test2.properties";
+    public static final String DEFAULT_PROPERTIES_PATH = "properties/template.properties";
 
     /**
      * Starting point
@@ -14,12 +15,13 @@ public class Driver {
      */
 
     public static void main(String args[]) {
-        String propertiesPath = DEFAULT_PROPERTIES_PATH;
-        if (args.length > 0) {
-            propertiesPath = args[0];
-        }
-        final Properties properties = PropertiesLoader.loadPropertiesFile(propertiesPath);
-        GameCallback gameCallback = new GameCallback();
-        new Game(gameCallback, properties);
+//        String propertiesPath = DEFAULT_PROPERTIES_PATH;
+//        if (args.length > 0) {
+//            propertiesPath = args[0];
+//        }
+//        final Properties properties = PropertiesLoader.loadPropertiesFile(propertiesPath);
+//        GameCallback gameCallback = new GameCallback();
+//        new Game(gameCallback, properties,null);
+        new Controller();
     }
 }

@@ -78,6 +78,7 @@ public class PacActor extends Actor implements GGKeyRepeatListener
       setLocation(next);
       eatPill(next);
     }
+
   }
 
   public void act()
@@ -171,6 +172,7 @@ public class PacActor extends Actor implements GGKeyRepeatListener
         }
       }
     }
+    System.out.println(next);
     eatPill(next);
     addVisitedList(next);
   }
@@ -207,6 +209,13 @@ public class PacActor extends Actor implements GGKeyRepeatListener
   private void eatPill(Location location)
   {
     Color c = getBackground().getColor(location);
+    // 传送门
+    if(c.equals(Color.black)) {
+      Location new_location = game.search_local(location);
+      if(new_location != null ){
+        setLocation(new_location);
+      }
+    }
     if (c.equals(Color.white))
     {
       nbPills++;

@@ -1,0 +1,20 @@
+[PacMan] Location: 16-9. Score: 0. Pills: 0
+[Troll] Location: 17-8
+[PacMan] Location: 16-9. Score: 0. Pills: 0
+[Troll] Location: 17-9
+[PacMan] Location: 15-9. Score: 0. Pills: 0
+[Troll] Location: 18-9
+[PacMan] Location: 9-9. Score: 0. Pills: 0
+[Troll] Location: 18-8
+[PacMan] Location: 8-9. Score: 0. Pills: 0
+[Troll] Location: 19-8
+[PacMan] Location: 14-9. Score: 0. Pills: 0
+[Troll] Location: 19-9
+[PacMan] Location: 15-9. Score: 0. Pills: 0
+[Troll] Location: 18-9
+[PacMan] Location: 15-9. Score: 0. Pills: 0
+[Troll] Location: 18-10
+[PacMan] Location: 15-9. Score: 0. Pills: 0
+[Troll] Location: 17-10
+[PacMan] Location: 15-9. Score: 0. Pills: 0
+[Troll] Location: 17-9
